@@ -27,6 +27,6 @@ defmodule PlugRailsCookieSessionStore.Mixfile do
   defp deps do
     [{:cowboy,  "~> 1.0", optional: true},
      {:plug,    ">= 0.9.0"},
-     {:ex_doc,  github: "elixir-lang/ex_doc"}]
+     {:ex_doc,  "~> 0.16", only: :dev}]
   end
 end
